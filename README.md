@@ -24,6 +24,8 @@ cd next-auth-example
 npm i
 ```
 
+AEC Note: If using sqlite, you'll need to install with `npm install --build-from-source --python=/usr/bin/python3` to avoid an error when running `npm i`
+
 ### 2. Configure your local environment
 
 Copy the .env.local.example file in this directory to .env.local (which will be ignored by Git):
